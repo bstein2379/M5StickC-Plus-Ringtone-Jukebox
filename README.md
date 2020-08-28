@@ -36,21 +36,29 @@ The objective of this project was to implement the RTTTL functionality using the
 After the program loads, the user is presented with the Menu.
 
 ### Menu
+  ![Menu](./menu.jpg)
 + Press Button B to move the selection dot down the list. It will wrap back to the top after the last menu item.
 + Press Button A to select that menu item.
 
 ### Browse Catalog
+  ![Browse Catalog](./browse_catalog.jpg)
 + Press Button B to move the selection dot down the list. It will go to the next page after the last ringtone on the current page. After the last ringtone on page 6 it will wrap back to page 1.
 + Long press Button B (for 2 seconds) to skip to the next page of the catalog
 + Press Button A to play your selection. When a ringtone is playing, press Button B to stop the ringtone and return to the previous menu.
+
+  ![Playing](./playing.jpg)
 + To get back to the menu from the catalog, press Button A and Button B simultaneously
 
 ### Volume
+  ![Volume](./volume.jpg)
 + Press Button B to increase the volume
 + Press Button A to decrease the volume
 + Press Button A and Button B simultaneously to save the volume setting and go back to the menu
 
+-----------------------------------------------------------------
 
+#### uiFlow
+![Flow](./flow.png)
 -----------------------------------------------------------------
 
 #### To update a ringtone
